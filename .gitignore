@@ -1,0 +1,68 @@
+#################################
+# Spring Boot + Java + Maven
+#################################
+
+# Compiled class files
+*.class
+
+# Log files
+*.log
+
+# Package Files
+*.jar
+*.war
+*.ear
+
+# Maven target directory
+/target/
+
+# Eclipse
+.classpath
+.project
+.settings/
+
+# IntelliJ IDEA
+.idea/
+*.iml
+*.ipr
+*.iws
+
+# NetBeans
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+
+# VS Code
+.vscode/
+
+# Spring Tool Suite
+.apt_generated
+.factorypath
+.springBeans
+.sts4-cache
+
+# Mac OS
+.DS_Store
+
+# Windows
+Thumbs.db
+
+# Maven Wrapper (keep the scripts, ignore wrapper folder if needed)
+/.mvn/wrapper/maven-wrapper.jar
+
+#################################
+# React Frontend (my-app)
+#################################
+
+my-app/node_modules/
+my-app/build/
+my-app/.DS_Store
+my-app/.env
+my-app/.env.*.local
+my-app/npm-debug.log*
+my-app/yarn-debug.log*
+my-app/yarn-error.log*
+my-app/package-lock.json
+my-app/yarn.lock
